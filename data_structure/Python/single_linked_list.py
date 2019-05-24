@@ -76,34 +76,34 @@ def show_list(slist):
     print()
 
 
-# if __name__ == "__main__":
-#     print('*' * 100)
-#     slist = SingleLinkedList()
-#
-#     print('데이터 삽입')
-#     slist.add(3)
-#     slist.add(1)
-#     slist.add(5)
-#     slist.add(2)
-#     slist.add(7)
-#     slist.add(8)
-#     slist.add(3)
-#     show_list(slist)
-#
-#     print('데이터 탐색')
-#     target = 5
-#     res = slist.search(target)
-#     if res:
-#         print('데이터 {} 검색 성공'.format(res.data))
-#     else:
-#         print('데이터 {} 탐색 실패'.format(target))
-#     res = None
-#     print()
-#
-#     print('데이터 삭제')
-#     slist.delete()
-#     slist.delete()
-#     slist.delete()
-#     show_list(slist)
-#
-#     print('*' * 100)
+if __name__ == "__main__":
+    print('*' * 100)
+    slist = SingleLinkedList()
+
+    print('데이터 삽입')
+    slist.add(3)
+    slist.add(1)
+    slist.add(5)
+    slist.add(2)
+    slist.add(7)
+    slist.add(8)
+    slist.add(3)
+    show_list(slist)
+
+    print('데이터 탐색')
+    target = 5
+    res = slist.search(target)
+    if res:
+        print('데이터 {} 검색 성공'.format(res.data))
+    else:
+        print('데이터 {} 탐색 실패'.format(target))
+    res = None
+    print()
+
+    print('데이터 삭제')
+    slist.delete()
+    slist.delete()
+    slist.delete()
+    show_list(slist)
+
+    print('*' * 100)
